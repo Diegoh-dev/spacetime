@@ -24,6 +24,7 @@ export default function Home() {
         </a>
 
          {/* Hero */}
+         {/* PAREI EM 41:00 */}
       </div>
 
       {/* right */}
