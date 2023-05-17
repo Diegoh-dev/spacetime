@@ -53,6 +53,7 @@ export default function Home() {
           </a>
         </div>
 
+
         {/* Copyright */}
         <div className="text-sm leading-relaxed text-gray-200">
           Feito com 💜 no NLW da{" "}
