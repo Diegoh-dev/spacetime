@@ -35,7 +35,7 @@ export default function Home() {
             <a href="" className="underline hover:text-gray-50">
               criar agora
             </a>{" "}
-            !
+            {/* apenas paa subir a versão */}
           </p>
         </div>
       </div>
