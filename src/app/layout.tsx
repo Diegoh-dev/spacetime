@@ -27,7 +27,7 @@ export default function RootLayout({
       <body className={`${roboto.variable} ${baiJamjuree.variable} font-sans bg-gray-900 text-gray-100`}>
         <main className="grid min-h-screen grid-cols-2">
       {/* left */}
-      <div className="px28 relative flex flex-col items-start justify-between overflow-hidden border-r border-white/10 bg-[url(../assets/bg-start.svg)] p-16 ">
+      <div className="px28 relative flex flex-col items-start justify-between overflow-hidden border-r border-white/10 bg-[url(../assets/bg-start.svg)]">
         {/* Blur */}
         <div className="absolute right-0 top-1/2 h-[288px] w-[526px] -translate-y-1/2 translate-x-1/2 rounded-full bg-purple-700 opacity-50 blur-full" />
 
@@ -42,7 +42,7 @@ export default function RootLayout({
       </div>
 
       {/* right */}
-      <div className="flex flex-col bg-[url(../assets/bg-start.svg)] bg-cover p-16">
+      <div className="flex max-h-screen overflow-y-scroll flex-col bg-[url(../assets/bg-start.svg)] bg-cover p-16">
       {children}
       </div>
     </main>
